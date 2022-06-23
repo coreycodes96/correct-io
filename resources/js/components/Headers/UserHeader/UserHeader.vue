@@ -6,14 +6,13 @@
 
 <script>
 import { mapActions } from 'vuex';
-import { BASE_URL } from '../../../store/baseUrl';
 export default {
     methods: {
         ...mapActions('account', ['logTheUserOut']),
         logout(){
             this.logTheUserOut()
             .then(() => {
-                window.location.replace(`${BASE_URL}/login`);
+                window.location.replace(`/login`);
             })
         }
     }

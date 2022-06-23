@@ -28,7 +28,6 @@
 
 <script>
 import { mapActions } from 'vuex';
-import { BASE_URL } from '../../../store/baseUrl';
 export default {
     data(){
         return {
@@ -69,7 +68,7 @@ export default {
                 this.logTheUserIn(data)
                 .then(() => {
                     this.loading = false;
-                    window.location.replace(`${BASE_URL}/quiz`);
+                    window.location.replace(`/quiz`);
                 })
                 .catch(error => {
                     console.log(error.response);

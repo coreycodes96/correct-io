@@ -1,5 +1,4 @@
 import axios from "axios";
-import { BASE_URL } from "../baseUrl";
 
 const account = {
     namespaced: true,
@@ -13,7 +12,7 @@ const account = {
         //Create an account
         getQuizzes({ commit }) {
             return new Promise((resolve, reject) => {
-                axios.get(`${BASE_URL}/quiz/show`, {
+                axios.get("/quiz/show", {
                     headers: {
                         'Content-Type': 'application/json'
                     }
@@ -29,7 +28,7 @@ const account = {
         },
         createQuiz(NULL, data) {
             return new Promise((resolve, reject) => {
-                axios.post(`${BASE_URL}/quiz/create`, data, {
+                axios.post("/quiz/create", data, {
                     headers: {
                         'Content-Type': 'application/json'
                     }
@@ -44,7 +43,7 @@ const account = {
         },
         deleteQuiz(NULL, id) {
             return new Promise((resolve, reject) => {
-                axios.delete(`${BASE_URL}/quiz/delete/${id}`, {
+                axios.delete(`/quiz/delete/${id}`, {
                     headers: {
                         'Content-Type': 'application/json'
                     }
