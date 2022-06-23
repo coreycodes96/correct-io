@@ -1,6 +1,6 @@
 # Correct.io
 
-Correct.io allows users to create quizzes with a specific categories. One the quiz has been
+Correct.io allows users to create quizzes with specific categories. One the quiz has been
 created the user can then play the quiz and they can also pick the difficulty of the 
 quiz (easy, medium, hard).
 
