@@ -20,7 +20,7 @@ import { BASE_URL } from '../../../store/baseUrl';
 export default {
     methods: {
         url(name) {
-            return `/${BASE_URL}/${name}`;
+            return `/${name}`;
         }
     }
 }
