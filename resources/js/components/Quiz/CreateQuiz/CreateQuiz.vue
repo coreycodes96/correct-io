@@ -273,11 +273,8 @@ export default {
                     questions: this.questions
                 };
 
-                console.log(data.questions);
-
                 this.createQuiz(data)
                 .then(res => {
-                    console.log(res.data);
                     this.getQuizzes();
                     this.loading = false;
                     this.closeQuiz();

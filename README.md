@@ -14,7 +14,7 @@ quiz (easy, medium, hard).
 ---
 
 
-## How To Use Crime Alert.
+## How To Use Correct.io.
 
 1. Open A Command Line And Run
 ```
