@@ -20,7 +20,7 @@
         
         <div class="w-screen h-screen flex flex-col justify-center items-center text-center">
             <h1 class="md:text-5xl text-2xl">Welcome To <span class="text-green-500">Correct.io</span></h1>
-            <p class="mt-5 md:text-xl text-md">Create a quizzes and have fun.</p>
+            <p class="mt-5 md:text-xl text-md">Create a quizzes and have fun</p>
         </div>
     </body>
 </html>
