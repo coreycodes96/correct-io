@@ -1,5 +1,6 @@
 <template>
-    <div class="fixed top-0 left-0 px-10 w-full h-auto md:flex block justify-between items-center text-center bg-gray-100">
+    <div
+        class="fixed top-0 left-0 px-10 w-full h-auto md:flex block justify-between items-center text-center bg-gray-100">
         <li class="my-0 list-none">
             <a :href="url('')">Home</a>
         </li>
@@ -18,8 +19,8 @@
 import { BASE_URL } from '../../../store/baseUrl';
 export default {
     methods: {
-        url(name){
-            return `${BASE_URL}/${name}`;
+        url(name) {
+            return `/${BASE_URL}/${name}`;
         }
     }
 }
