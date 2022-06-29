@@ -632,6 +632,9 @@ video {
 .mr-1 {
   margin-right: 0.25rem;
 }
+.ml-min-100 {
+  margin-left: -100%;
+}
 .block {
   display: block;
 }

@@ -6,7 +6,7 @@
         </div>
 
         <!-- Create Quiz Modal -->
-        <div ref="quizModal" class="mt-min-100 hidden fixed top-0 left-0 p-3 w-screen h-screen flex-col bg-gray-100 z-10">
+        <div ref="quizModal" class="ml-min-100 hidden fixed top-0 left-0 p-3 w-screen h-screen flex-col bg-gray-100 z-10">
            <div class="w-full h-8 flex justify-end">
                 <i @click="closeQuiz" class="fas fa-times cursor-pointer text-2xl"></i>
             </div>
