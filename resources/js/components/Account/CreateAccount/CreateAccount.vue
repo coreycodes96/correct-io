@@ -1,6 +1,6 @@
 <template>
     <div class="w-screen h-screen flex justify-center items-center bg-gray-100">
-        <div class="w-3/5 h-auto">
+        <div class="sm:w-4/5 w-4/5 h-auto">
             <h4 class="mb-5 font-semibold text-2xl text-gray-700">Create An Account...</h4>
 
             <div class="p-10 w-full h-96 bg-white rounded shadow-md shadow-gray-400 overflow-hidden">

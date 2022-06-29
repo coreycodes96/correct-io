@@ -178,7 +178,7 @@ export default {
         },
         closeQuiz(){
             tl.to(this.$refs.quizModal, {
-                display: "flex",
+                display: "none",
                 marginTop: "-100%",
                 duration: 0.3,
                 ease: "power3.out",
