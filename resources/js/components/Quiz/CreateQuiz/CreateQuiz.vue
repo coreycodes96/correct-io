@@ -171,7 +171,7 @@ export default {
         openQuiz(){
             tl.to(this.$refs.quizModal, {
                 display: "flex",
-                marginTop: "0",
+                marginLeft: "0",
                 duration: 0.3,
                 ease: "power3.out",
             });
@@ -179,7 +179,7 @@ export default {
         closeQuiz(){
             tl.to(this.$refs.quizModal, {
                 display: "none",
-                marginTop: "-100%",
+                marginLeft: "-100%",
                 duration: 0.3,
                 ease: "power3.out",
             });
